@@ -17,16 +17,55 @@ This analysis uses four relational tables covering **January 1, 2020 – Decembe
 #### Business Questions and Objectives
 
 1.Churn Analysis
-What is the overall and churn rate for annual vs. monthly subscribers?
-How have monthly vs. annual subscription churn rates evolved from Jan 2020–Dec 2021?
-Which age cohorts exhibit the highest churn risk?
 
-2.Revenue Forecasting
-Given steady new-customer growth, what’s the expected 2022 topline?
+- Overall & Trend:
+  - What is the overall and churn rate for annual vs. monthly subscribers?
+  - How have monthly vs. annual subscription churn rates evolved from Jan 2020–Dec 2021?
+- Segment Differences:
+  - Which age cohorts(e.g.'25-40','40-55',etc.) exhibit the highest churn risk?
+- Tenure
+  - What is the average time-to-churn (mean & median customer lifetime) in each age × product segment?
+- Risk
+  - How can we define low / medium / high churn-risk levels, and what is the distribution of those levels across age groups? 
 
-3.Call-Center Staffing
-How many cases/day (and per hour) should we expect in 2022 to maintain SLAs?
+2. Customer Lifetime Value (CLV)
+- Value by Segment
+  -What is the CLV for each age group and subscription type?
+- Value & Risk Matrix
+  -Which cohorts combine high CLV with high churn risk, and which are low-risk/low-value?
 
-4.Customer Lifetime Value
-What is the CLV by subscription type and age segment, and which cohorts deserve premium retention spend?
+3. Revenue Forecasting
+
+- Assuming steady new-customer growth, how will historical churn trends and CLV projections drive 2022 revenue for annual vs. monthly plans?
+- Under a 5–10% reduction in churn among high-risk cohorts, what incremental revenue uplift could we expect in 2022?
+
+#### Key Insigts
+
+High-risk cohorts: e.g. monthly subscribers aged 18–25 churn at 45% vs. 22% overall
+
+High-value at risk: 35–44-year-olds on annual plans have the highest CLV yet moderate churn risk
+
+Revenue drivers: a 5% reduction in monthly churn yields a $XM lift in 2022
+
+Staffing hotspots: peak call volume between 10 AM–12 PM on weekdays
+
+#### Strategic Recommendations To Stakeholders
+
+1. Marketing & Growth
+- Tailored campaigns for “high-CLV/high-risk” cohorts (e.g. exclusive webinars)
+- Referral bonuses for low-risk/high-CLV segments
+
+2. Product & Customer Success
+- Feature prioritization: invest in in-app guidance where churn spikes
+- Proactive outreach: automated check-ins for cohorts at 80% probability of churn
+
+3 Finance & Operations
+- Pricing experiments: test annual discounts vs. monthly promotions to optimize CLV
+- Staffing plan: align care-team headcount with forecasted case-volume heatmap
+
+#### Limitations & Next Steps
+- Data gaps: e.g. no in-product usage logs
+- Model refinements: incorporate NLP on case topics
+- Extended analyses: lifetime value by channel-of-acquisition
+
 
