@@ -16,3 +16,16 @@ This analysis uses four relational tables covering **January 1, 2020 – Decembe
 
 #### Business Questions and Objectives
 
+1.Churn Analysis
+What is the overall and segment-level churn rate for annual vs. monthly subscribers?
+Which age cohorts exhibit the highest churn risk?
+
+2.Revenue Forecasting
+Given steady new-customer growth, what’s the expected 2022 topline?
+
+3.Call-Center Staffing
+How many cases/day (and per hour) should we expect in 2022 to maintain SLAs?
+
+4.Customer Lifetime Value
+What is the CLV by subscription type and age segment, and which cohorts deserve premium retention spend?
+
