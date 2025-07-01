@@ -7,9 +7,9 @@ This project delivers a comprehensive churn-and-lifetime-value analysis for two 
 #### About Dataset
 This analysis uses four relational tables covering **January 1, 2020 – December 31, 2022**, with **~310 K subscription records**. It captures customer behavior, product details, and support interactions for two fintech advisory subscriptions (annual & monthly).
 
-| Table           | Rows    | Purpose                                  | Key Fields                                                            |
-| --------------- | ------- | ---------------------------------------- | --------------------------------------------------------------------- |
-| customers       | ~50 K   | Profiles and demographics                | `customer_id`, `signup_date`, `age`, `gender`, `gender`               |
-| subscriptions   | ~310 K  | Sign-up/cancellation history             | `subscription_id`,  `product_type`, `signup_date`, `cancellation_date`|
-| cases           | ~200 K  | Call-center interactions                 | `case_id`, `customer_id`, `contact_time`, `contact_reason`            |
-| pricing         | 2       | List prices & discount rules             | `product_type`, `price`                                               |
+| Table           | Rows     | Purpose                                  | Key Fields                                                            |
+| --------------- | -------  | ---------------------------------------- | --------------------------------------------------------------------- |
+| customers       | ~50 K    | Profiles and demographics                | `customer_id`, `signup_date`, `age`, `gender`, `gender`               |
+| subscriptions   | ~310 K   | Sign-up/cancellation history             | `subscription_id`,  `product_type`, `signup_date`, `cancellation_date`|
+| cases           | ~200 K   | Call-center interactions                 | `case_id`, `customer_id`, `contact_time`, `contact_reason`            |
+| pricing         | 2        | List prices & discount rules             | `product_type`, `price`                                               |
