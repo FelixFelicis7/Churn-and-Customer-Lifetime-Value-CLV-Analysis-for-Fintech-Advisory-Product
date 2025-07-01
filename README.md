@@ -17,7 +17,8 @@ This analysis uses four relational tables covering **January 1, 2020 – Decembe
 #### Business Questions and Objectives
 
 1.Churn Analysis
-What is the overall and segment-level churn rate for annual vs. monthly subscribers?
+What is the overall and churn rate for annual vs. monthly subscribers?
+How have monthly vs. annual subscription churn rates evolved from Jan 2020–Dec 2021?
 Which age cohorts exhibit the highest churn risk?
 
 2.Revenue Forecasting
