@@ -65,3 +65,4 @@ CLV is steadily decreasing quarterly for both subscriptions.
 prd_2 consistently maintains a higher CLV than prd_1, but both decline rapidly over time.
 It is a sign that newer cohorts are less valuable—a red flag for future customer quality, retention, or engagement.
 
+![CLV Quarter Trend](plots/CLV_heatmap.png)
