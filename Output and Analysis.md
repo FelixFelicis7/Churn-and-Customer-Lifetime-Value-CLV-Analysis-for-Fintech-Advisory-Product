@@ -4,15 +4,13 @@
 
 ![Churn Risk by Age Group](plots/churn_risk_level.png)
 
-| Age Group | Median Risk | IQR (Q1–Q3)    | Whiskers & Outliers             |    
-
-|:---------:|:-------------:|:--------------:|:-----------------------------:|
-
-| <25       | Very high     | Tight, high    | Few very low‐risk outliers    | 
-| 25–40     | Mid (~0.45)   | Very wide      | Spans almost the full [0–1]   | 
-| 40–55     | Lower(~0.35)  | Moderate       | No extreme outliers           |               
-| 55–70     | Lower (~0.30) | Moderate-wide  | A few at both extremes        |
-| 70+       | Mid (~0.45)   | Wide           | Some very high churners       | 
+| Age Group |   Median Risk   |   IQR (Q1–Q3)   |     Whiskers & Outliers      |
+|:---------:|:---------------:|:---------------:|:----------------------------:|
+|   <25     |    Very high    |  Tight, high    | Few very low-risk outliers   |
+|  25–40    | Mid (~0.45)     |  Very wide      | Spans almost the full [0–1]  |
+|  40–55    | Lower (~0.35)   |  Moderate       | No extreme outliers          |
+|  55–70    | Lower (~0.30)   | Moderate-wide   | A few at both extremes       |
+|   70+     | Mid (~0.45)     |  Wide           | Some very high churners      |
 
 **Insights**:
 
