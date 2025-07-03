@@ -57,7 +57,11 @@ prd_2 Upsell: prd_2 consistently yields higher CLV—if it's a higher tier, ther
 Churn Focus: Investigate why <25 churns quickly—surveys, interviews, or feature analysis could help retain this segment if strategic.
 
 
+### Analysis of CLV Trend(Line)
 
+![CLV Trend](plots/Trend_clv.png)
 
-
+CLV is steadily decreasing quarterly for both subscriptions.
+prd_2 consistently maintains a higher CLV than prd_1, but both decline rapidly over time.
+It is a sign that newer cohorts are less valuable—a red flag for future customer quality, retention, or engagement.
 
