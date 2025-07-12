@@ -18,7 +18,9 @@ An interactive Tableau dashboard can be downloaded here.<br/>
 
 FinAdvisory's data structure as seen below consists of four tables: subscriptions, cases, customers and products with 310,064 records. <br/><br/>
 
-
+<p align="center">
+  <img src="plots/ER_diagram.png" width="600" height="600">
+</p>
 
 
 
