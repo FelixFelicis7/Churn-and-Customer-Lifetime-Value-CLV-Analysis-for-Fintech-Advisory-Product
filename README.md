@@ -1,6 +1,4 @@
-# Churn-and-Customer-Lifetime-Value-CLV-Analysis-for-Fintech-Advisory-Product
-
-### Project Background
+# Project Background
 
 FinAdvisory is a fintech company that provides digital subscription-based investment advisory services to individuals through its monthly and annual plans. Until recently, much of this data had been underutilized in shaping customer retention and revenue strategy.
 
@@ -14,6 +12,11 @@ Insights and recommendations are provided across the following key areas:
 
 - Customer Lifetime Value (CLV) Forecasting: Estimation of CLV by age and plan type, identifying which segments drive the most revenue and which are most at risk of early churn.
 
+An interactive Tableau dashboard can be downloaded here.<br/>
+
+# Data Structure & Initial Checks
+
+FinAdvisory's data structure as seen below consists of four three tables: subscriptions, customers and products with 310,064 records.
 
 
 # Overview
