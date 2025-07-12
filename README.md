@@ -16,7 +16,10 @@ An interactive Tableau dashboard can be downloaded here.<br/>
 
 # Data Structure & Initial Checks
 
-FinAdvisory's data structure as seen below consists of four three tables: subscriptions, customers and products with 310,064 records.
+FinAdvisory's data structure as seen below consists of four tables: subscriptions, cases, customers and products with 310,064 records. <br/><br/>
+
+
+
 
 
 # Overview
