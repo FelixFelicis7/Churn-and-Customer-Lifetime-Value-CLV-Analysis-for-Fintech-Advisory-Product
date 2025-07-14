@@ -24,6 +24,8 @@ FinAdvisory's data structure as seen below consists of four tables: subscription
 
 
 
+
+
 # Overview
 1. Background and Overview
 2. Data Structure Overview
