@@ -23,54 +23,7 @@ FinAdvisory's data structure as seen below consists of four tables: subscription
 </p>
 
 
-
-
-
-# Overview
-1. Background and Overview
-2. Data Structure Overview
-3. Executive Summary
-4. Insights Deep Live
-5. Recommendations
-
-
-
-This project delivers a comprehensive churn-and-lifetime-value analysis for two fintech advisory subscriptions—annual and monthly—over the 2020–2022 period. By integrating customer sign-up and cancellation dates with demographic attributes, we calculate key metrics - churn rate, average lifetime, and churn-risk levels—across subscription types and age cohorts. Those metrics feed into segment-specific Customer Lifetime Value (CLV) projections, empowering marketing managers to design tailored campaigns (e.g. high-CLV/low-churn vs. high-CLV/high-churn cohorts) and product managers to prioritize feature development and subscription enhancements based on observed churn drivers.
-
-#### About Dataset
-This analysis uses four relational tables covering **January 1, 2020 – December 31, 2022**, with **~310 K subscription records**. It captures customer behavior, product details, and support interactions for two fintech advisory subscriptions (annual & monthly).
-
-| Table           | Rows     | Purpose                                  | Key Fields                                                            |
-| --------------- | -------  | ---------------------------------------- | --------------------------------------------------------------------- |
-| customers       | ~50 K    | Profiles and demographics                | `customer_id`, `signup_date`, `age`, `gender`, `gender`               |
-| subscriptions   | ~310 K   | Sign-up/cancellation history             | `subscription_id`,  `product_type`, `signup_date`, `cancellation_date`|
-| cases           | ~200 K   | Call-center interactions                 | `case_id`, `customer_id`, `contact_time`, `contact_reason`            |
-| pricing         | 2        | List prices & discount rules             | `product_type`, `price`                                               |
-
-#### Business Questions and Objectives
-
-1.Churn Analysis
-
-- Overall & Trend:
-  - What is the overall and churn rate for annual vs. monthly subscribers?
-  - How have monthly vs. annual subscription churn rates evolved from Jan 2020–Dec 2021?
-- Segment Differences:
-  - Which age cohorts(e.g.'25-40','40-55',etc.) exhibit the highest churn risk?
-- Tenure
-  - What is the average time-to-churn (mean & median customer lifetime) in each age × product segment?
-- Risk
-  - How can we define low / medium / high churn-risk levels, and what is the distribution of those levels across age groups? 
-
-2. Customer Lifetime Value (CLV)
-- Value by Segment
-  -What is the CLV for each age group and subscription type?
-- Value & Risk Matrix
-  -Which cohorts combine high CLV with high churn risk, and which are low-risk/low-value?
-
-3. Revenue Forecasting
-
-- Assuming steady new-customer growth, how will historical churn trends and CLV projections drive 2022 revenue for annual vs. monthly plans?
-- Under a 5–10% reduction in churn among high-risk cohorts, what incremental revenue uplift could we expect in 2022?
+# Executive Summary
 
 #### Key Insigts
 
