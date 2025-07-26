@@ -31,8 +31,6 @@ High-risk cohorts: e.g. monthly subscribers aged 18–25 churn at 45% vs. 22% ov
 
 High-value at risk: 35–44-year-olds on annual plans have the highest CLV yet moderate churn risk
 
-Revenue drivers: a 5% reduction in monthly churn yields a $XM lift in 2022
-
 Staffing hotspots: peak call volume between 10 AM–12 PM on weekdays
 
 #### Strategic Recommendations To Stakeholders
