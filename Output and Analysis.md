@@ -1,6 +1,5 @@
-## Machine Learning: Random Forest
 
-### Analysis of churn risk level by age group(Boxplot)
+#### Analysis of churn risk level by age group(Boxplot)
 
 ![Churn Risk by Age Group](plots/churn_risk_level.png)
 
@@ -24,7 +23,7 @@
 - For `40–55` & `55–70`:they are relatively loyal users, review weekly health metrics 
 - Re‐evaluate after retraining to see if patterns persist.
 
-### Analysis of  CLV by age and subsciption(Heatmap)
+#### Analysis of  CLV by age and subsciption(Heatmap)
 
 ![CLV by Age and Subscriptions](plots/CLV_product_age.png)
 
