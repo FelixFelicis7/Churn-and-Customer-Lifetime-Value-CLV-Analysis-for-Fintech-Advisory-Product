@@ -12,7 +12,6 @@ Insights and recommendations are provided across the following key areas:
 
 - Customer Lifetime Value (CLV) Forecasting: Estimation of CLV by age and plan type, identifying which segments drive the most revenue and which are most at risk of early churn.
 
-An interactive Tableau dashboard can be downloaded here.<br/>
 
 # Data Structure & Initial Checks
 
