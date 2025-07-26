@@ -68,7 +68,7 @@ prd_2(monthly) consistently has higher CLV than prd_1(annual) for every age grou
 This corresponds to younger customers churn faster(also higher churn rate) and generate less value.
 
 
-Age Group Trends:
+**Age Group Trends**:
 
 Both Subscriptions(Annual & Monthly): Older age groups (>25) generally have longer average lifetimes (8+ months) and higher CLV than the youngest group (<25).
 
